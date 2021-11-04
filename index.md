@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script defer src="Pg.js"></script>
+<title>Extra</title>
+</head>
+<body>
+	<body background="image3.jpg" bgcolor="FFCECB"
+		width="800"
+       height="600"
+		  align=center>
+	
 
-You can use the [editor on GitHub](https://github.com/sizeof-malloc/Page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sizeof-malloc/Page/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+	<center><b><h2>Formulario</h2></b></center>
+	<form>
+	<div class="contenedor-input">
+                        <label>
+                         <center> <b>No. usuario<span class="req">*</span></b> </center> 
+                        </label>
+                        <center><input type="text" size="8" minlength="4" maxlength="8" required id="usuario" placeholder="Max 8 numeros" > </center>
+	</div>
+	<div class="contenedor-input">
+                        <label>
+                           <center> <b>Nombre usuario<span class="req">  *</span></b> </center> 
+                        </label>
+                         <center><input type="text" required id="nombre" placeholder="    Solo letras" > </center> 
+	</div>
+	<div class="contenedor-input">
+                        <label>
+                          <center> <b> Apellidos<span class="req">*</span></b> </center> 
+                        </label>
+                         <center><input type="text" required placeholder="    Solo letras" id="apellido"</center> 
+	</div>
+	<div class="contenedor-input">
+                        <label>
+                           <center> <b> No. telefono<span class="req">*</span></b> </center> 
+                        </label>
+                        <center><input type="text" size="10" minlength="10" maxlength="10" required id="telefono" placeholder="   10 digitos" > </center> 
+	</div>
+	<div class="contenedor-input">
+                        <label>
+                         <center> <b>  Direccion IP<span class="req">*</span></b> </center>
+                        </label> 
+                         <center><input type="text" required id="ip" placeholder="192.100.0.12" > <center>
+	</div>
+	<div class="contenedor-input">
+                        <label>
+                          <center> <b> Formato MAC<span class="req">*</span> </b> </center>
+                        </label>
+                        <center><input type="text" required id="mac" placeholder="00:1B:44:11:3A:B7" ></center>
+	</div>	
+<center><button type="button" onClick="recogerdatos()">Iniciar sesion</button>
+		<input type="reset" value="Vaciar"/></center>
+	<center><h3>No. usuario:</h3></center>
+	<b><center><h4>Nombre:</h4></center></b>
+	<b><center><h5>Apellidos:</h5></center></b>
+	<b><center><h6>Telefono:</h6></center></b>
+	<b><center><h7>Formato IP:</h7></center></b>
+	</b><center><h7>Formato MAC:</h7></center></b>
+	</form>
+</body>
+</html>
