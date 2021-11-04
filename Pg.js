@@ -5,12 +5,12 @@ function recogerdatos(){
 	var tele = document.getElementById("telefono").value;
 	var IP = document.getElementById("ip").value;
 	var MAC = document.getElementById("mac").value;
-	var tex = document.querySelector('h3')
-	var tex4 = document.querySelector('h4')
-	var tex5 = document.querySelector('h5')
-	var tex6 = document.querySelector('h6')
-	var tex7 = document.querySelector('h7')
-	var tex8 = document.querySelector('h8')
+	var tex = document.querySelector('t3')
+	var tex4 = document.querySelector('t4')
+	var tex5 = document.querySelector('t5')
+	var tex6 = document.querySelector('t6')
+	var tex7 = document.querySelector('t7')
+	var tex8 = document.querySelector('t8')
 	if(  usua.length < 4 || usua.length > 8  ) {		
 		tex.innerHTML = '<b> No. de usuario: Error </b>'
 	}
