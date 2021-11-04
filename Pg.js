@@ -10,7 +10,7 @@ function recogerdatos(){
 	var tex5 = document.querySelector('h5')
 	var tex6 = document.querySelector('h6')
 	var tex7 = document.querySelector('h7')
-	var tex8 = document.querySelector('h8')
+	var tex8 = document.querySelector('h7')
 	if(  usua.length == 8 && /\d{8}/.test(usua) ) {		
 		tex.innerHTML = '<b> No. de usuario: Verificado correctamente </b>'
 	}
