@@ -11,11 +11,11 @@ function recogerdatos(){
 	var tex6 = document.querySelector('h6')
 	var tex7 = document.querySelector('h7')
 	var tex8 = document.querySelector('h8')
-	if(  usua.length == 8 && /\d{8}/.test(usua) ) {		
-		tex.innerHTML = '<b> No. de usuario: Verificado correctamente </b>'
+	if(  usua.length < 4 || usua.length > 8  ) {		
+		tex.innerHTML = '<b> No. de usuario: Error </b>'
 	}
 	else
-		tex.innerHTML = '<b> No. de usuario: Error al ingresar datos </b>'
+		tex.innerHTML = '<b> No. de usuario: Verificado </b>'
 	
 	if( /^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(nomb) ) {
 		tex4.innerHTML = '<b> Nombre: Verificado correctamente </b>'
